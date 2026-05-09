@@ -247,30 +247,6 @@
 
     
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Endowing Vision-Language-Action (VLA) models with world-modeling capabilities represents a critical evolution from reactive policies to proactive agents. However, current methods secure these capabilities at the cost of explicit future-observation supervision, often requiring intricate auxiliary losses or multi-stage training. In this work, we pursue a simple alternative and ask whether world modeling can emerge in a VLA from the action signal alone. Inspired by the next-token prediction paradigm in large language models, we propose Action-Driven World Modeling (ADWM), which elicits latent dynamics through a single objective: next action chunk prediction. At its core, ADWM employs a cascaded inference mechanism via a shared world-action head. The initial forward pass jointly predicts the current action chunk and the future latent state; this latent state subsequently conditions the second pass to forecast the next action chunk. The cascaded next chunk prediction implicitly ensures an action-relevant, non-degenerate latent space, eliminating the need for explicit observation supervision or anti-collapse regularizers. Designed with architectural simplicity, ADWM functions as a plug-and-play module that integrates seamlessly into existing frameworks, requiring only a single balancing coefficient. More importantly, by obviating explicit future-state supervision, our design reduces computational overhead compared to existing methods. Extensive experiments in both the RoboTwin2.0 simulation environment and real-world deployments demonstrate the efficacy of our method. Crucially, on millimeter-precision tasks like earphone assembly and shoelace threading, ADWM outperforms standard VLAs by 14\% and 24\%, respectively. 
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-
-
-    
-
-
 <!-- Youtube video -->
 <section class="hero is-small is-light">
   <div class="hero-body">
@@ -444,6 +420,28 @@
 </div>
 </section>
 <!-- End image carousel -->
+
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <!-- TODO: Replace with your paper abstract -->
+          <p>
+            Endowing Vision-Language-Action (VLA) models with world-modeling capabilities represents a critical evolution from reactive policies to proactive agents. However, current methods secure these capabilities at the cost of explicit future-observation supervision, often requiring intricate auxiliary losses or multi-stage training. In this work, we pursue a simple alternative and ask whether world modeling can emerge in a VLA from the action signal alone. Inspired by the next-token prediction paradigm in large language models, we propose Action-Driven World Modeling (ADWM), which elicits latent dynamics through a single objective: next action chunk prediction. At its core, ADWM employs a cascaded inference mechanism via a shared world-action head. The initial forward pass jointly predicts the current action chunk and the future latent state; this latent state subsequently conditions the second pass to forecast the next action chunk. The cascaded next chunk prediction implicitly ensures an action-relevant, non-degenerate latent space, eliminating the need for explicit observation supervision or anti-collapse regularizers. Designed with architectural simplicity, ADWM functions as a plug-and-play module that integrates seamlessly into existing frameworks, requiring only a single balancing coefficient. More importantly, by obviating explicit future-state supervision, our design reduces computational overhead compared to existing methods. Extensive experiments in both the RoboTwin2.0 simulation environment and real-world deployments demonstrate the efficacy of our method. Crucially, on millimeter-precision tasks like earphone assembly and shoelace threading, ADWM outperforms standard VLAs by 14\% and 24\%, respectively. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+    
     
 
   <footer class="footer">
