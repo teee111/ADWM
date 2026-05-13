@@ -293,6 +293,36 @@
   </div>
 </section>
 <!-- End Single Video -->
+
+
+
+    
+<!-- Single Video -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Shoelace Threading Task</h2>
+      
+      <!-- 居中显示单个视频的布局 -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <!-- 本地视频播放器 -->
+          <video id="demo-video" controls muted loop playsinline width="100%" preload="metadata">
+            <!-- 请在此处保留你想要展示的那一个视频路径 -->
+            <source src="static/videos/shoe_success_720p.mp4" type="video/mp4">
+            <!-- 备用提示：如果用户的浏览器太老不支持video标签 -->
+            Your browser does not support the video tag.
+          </video>
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Single Video -->
+
     
 
   <!-- Single Video -->
@@ -323,33 +353,39 @@
 
     
 
-    
-<!-- Single Video -->
+
+<!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Shoelace Threading Task</h2>
-      
-      <!-- 居中显示单个视频的布局 -->
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <!-- 本地视频播放器 -->
-          <video id="demo-video" controls muted loop playsinline width="100%" preload="metadata">
-            <!-- 请在此处保留你想要展示的那一个视频路径 -->
-            <source src="static/videos/shoe_success_720p.mp4" type="video/mp4">
-            <!-- 备用提示：如果用户的浏览器太老不支持video标签 -->
-            Your browser does not support the video tag.
-          </video>
-          
-        </div>
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- TODO: Replace with your research result images -->
+        <img src="static/images/robot_config.jpg" alt="First research result visualization" loading="lazy"/>
+        <!-- TODO: Replace with description of this result -->
+        <h2 class="subtitle has-text-centered">
+        Our system utilizes a Piper robotic arm and two RealSense D435 cameras positioned in a third-person perspective.
+        </h2>
       </div>
-
-    </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/ear_config.jpg" alt="Second research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          Randomization of Object Initial Poses in Real-World Experiments.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/shoe_config.jpg" alt="Third research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+         Randomization of Object Initial Poses in Real-World Experiments.
+       </h2>
+     </div>
   </div>
+</div>
+</div>
 </section>
-<!-- End Single Video -->
-
+<!-- End image carousel -->
 
 
 
@@ -415,38 +451,6 @@
     
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/robot_config.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-        Our system utilizes a Piper robotic arm and two RealSense D435 cameras positioned in a third-person perspective.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/ear_config.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Randomization of Object Initial Poses in Real-World Experiments.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/shoe_config.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Randomization of Object Initial Poses in Real-World Experiments.
-       </h2>
-     </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
 
 
 
